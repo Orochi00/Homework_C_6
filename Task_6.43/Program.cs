@@ -1,0 +1,17 @@
+﻿System.Console.Write("Введите чему будет равен b1 ");
+string b1 = System.Console.ReadLine();
+int b3 = Convert.ToInt32(b1);
+System.Console.Write("Введите чему будет равен k1 ");
+string k1 = System.Console.ReadLine();
+int k3 = Convert.ToInt32(k1);
+System.Console.Write("Введите чему будет равен b2 ");
+string b2 = System.Console.ReadLine();
+int b4 = Convert.ToInt32(b2);
+System.Console.Write("Введите чему будет равен k2 ");
+string k2 = System.Console.ReadLine();
+int k4 = Convert.ToInt32(k2);
+double z1 = b4 - b3;
+double z2 = k3 - k4;
+double x = z1 / z2;
+double y = k3 * z1 / z2 + b3;
+System.Console.WriteLine($"{x}  {y}");
